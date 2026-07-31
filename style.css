@@ -1002,3 +1002,38 @@ p {
     font-size: 0.98rem;
   }
 }
+
+.menu-home-link {
+  margin-top: 16px;
+  padding: 15px 18px !important;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    135deg,
+    #b8e8f5,
+    #d8c8f7
+  );
+
+  color: #294762 !important;
+  font-weight: 800;
+
+  box-shadow: 0 8px 18px rgba(90, 130, 165, 0.22);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.menu-home-link:hover {
+  transform: translateY(-3px);
+
+  background: linear-gradient(
+    135deg,
+    #a8dff0,
+    #cbb8f2
+  );
+
+  box-shadow: 0 12px 24px rgba(90, 130, 165, 0.3);
+}
